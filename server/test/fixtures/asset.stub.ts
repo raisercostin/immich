@@ -51,7 +51,6 @@ export const assetStub = {
     fileCreatedAt: new Date('2022-06-19T23:41:36.910Z'),
     originalPath: '/original/path.jpg',
     originalFileName: 'IMG_123.jpg',
-    sidecarPath: null,
     fileSizeInByte: 12_345,
     ...asset,
   }),
@@ -81,7 +80,6 @@ export const assetStub = {
     sharedLinks: [],
     faces: [],
     exifInfo: {} as Exif,
-    sidecarPath: null,
     deletedAt: null,
     isExternal: false,
     duplicateId: null,
@@ -117,7 +115,6 @@ export const assetStub = {
     sharedLinks: [],
     originalFileName: 'IMG_456.jpg',
     faces: [],
-    sidecarPath: null,
     isExternal: false,
     exifInfo: {
       fileSizeInByte: 123_000,
@@ -157,7 +154,6 @@ export const assetStub = {
     sharedLinks: [],
     originalFileName: 'asset-id.ext',
     faces: [],
-    sidecarPath: null,
     deletedAt: null,
     duplicateId: null,
     isOffline: false,
@@ -194,7 +190,6 @@ export const assetStub = {
     originalFileName: 'asset-id.jpg',
     faces: [],
     deletedAt: null,
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
       exifImageHeight: 1000,
@@ -243,7 +238,6 @@ export const assetStub = {
     originalFileName: 'asset-id.jpg',
     faces: [],
     deletedAt: null,
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
       exifImageHeight: 3840,
@@ -285,7 +279,6 @@ export const assetStub = {
     sharedLinks: [],
     originalFileName: 'asset-id.jpg',
     faces: [],
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
       exifImageHeight: 3840,
@@ -328,7 +321,6 @@ export const assetStub = {
     sharedLinks: [],
     originalFileName: 'asset-id.jpg',
     faces: [],
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
       exifImageHeight: 3840,
@@ -367,7 +359,6 @@ export const assetStub = {
     originalFileName: 'asset-id.jpg',
     faces: [],
     deletedAt: null,
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
       exifImageHeight: 3840,
@@ -409,7 +400,6 @@ export const assetStub = {
     originalFileName: 'asset-id.jpg',
     faces: [],
     deletedAt: null,
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
     } as Exif,
@@ -448,7 +438,6 @@ export const assetStub = {
     sharedLinks: [],
     originalFileName: 'asset-id.ext',
     faces: [],
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
     } as Exif,
@@ -490,7 +479,6 @@ export const assetStub = {
     sharedLinks: [],
     originalFileName: 'asset-id.ext',
     faces: [],
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
     } as Exif,
@@ -526,7 +514,6 @@ export const assetStub = {
     livePhotoVideoId: null,
     sharedLinks: [],
     faces: [],
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 100_000,
       exifImageHeight: 2160,
@@ -605,7 +592,6 @@ export const assetStub = {
     deviceId: 'device-id',
     checksum: Buffer.from('file hash', 'utf8'),
     originalPath: '/original/path.ext',
-    sidecarPath: null,
     type: AssetType.Image,
     files: [previewFile],
     thumbhash: null,
@@ -734,7 +720,6 @@ export const assetStub = {
     livePhotoVideoId: null,
     sharedLinks: [],
     faces: [],
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 100_000,
     } as Exif,
@@ -776,7 +761,6 @@ export const assetStub = {
     originalFileName: 'photo.jpg',
     faces: [],
     deletedAt: null,
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
     } as Exif,
@@ -812,7 +796,6 @@ export const assetStub = {
     originalFileName: 'asset-id.dng',
     faces: [],
     deletedAt: null,
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
       profileDescription: 'Adobe RGB',
@@ -853,7 +836,6 @@ export const assetStub = {
     originalFileName: 'asset-id.hif',
     faces: [],
     deletedAt: null,
-    sidecarPath: null,
     exifInfo: {
       fileSizeInByte: 5000,
       profileDescription: 'Adobe RGB',
