@@ -500,7 +500,7 @@
   "assets": "媒體",
   "assets_added_count": "已新增 {count, plural, one {# 個媒體} other {# 個媒體}}",
   "assets_added_to_album_count": "已將 {count, plural, one {# 個媒體} other {# 個媒體}}加入相簿",
-  "assets_added_to_albums_count": "已新增 {assetTotal, plural, one {# 個} other {# 個}}項目到{albumTotal}個相簿中",
+  "assets_added_to_albums_count": "已新增 {assetTotal, plural, one {# 個} other {# 個}}項目到 {albumTotal, plural, one {# 個} other {# 個}}相簿中",
   "assets_cannot_be_added_to_album_count": "無法將 {count, plural, one {媒體} other {媒體}} 加入至相簿",
   "assets_cannot_be_added_to_albums": "{count, plural, one {個} other {個}}項目無法被加入相簿",
   "assets_count": "{count, plural, one {# 個媒體} other {# 個媒體}}",
